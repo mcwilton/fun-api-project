@@ -1,10 +1,10 @@
 I created an API to help me with the dev. The URLs are below.
 
-### API Overview for testing data
-## Base url = https://prophetapis.pythonanywhere.com/
-## Single Signal = https://prophetapis.pythonanywhere.com/v1/signals/1/
-## Single Signal Values = https://prophetapis.pythonanywhere.com/v1/signals/1/values/
-## Single Signal By Value = https://prophetapis.pythonanywhere.com/v1/signals/1/
+# API Overview for testing data
+# Base url = https://prophetapis.pythonanywhere.com/
+# Single Signal = https://prophetapis.pythonanywhere.com/v1/signals/1/
+# Single Signal Values = https://prophetapis.pythonanywhere.com/v1/signals/1/values/
+# Single Signal By Value = https://prophetapis.pythonanywhere.com/v1/signals/1/
 
 
  
