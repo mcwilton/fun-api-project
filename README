@@ -1,0 +1,35 @@
+I created an API to help me with the dev. The URLs are below.
+
+# API Overview for testing data
+# Base url = https://prophetapis.pythonanywhere.com/
+# Single Signal = https://prophetapis.pythonanywhere.com/v1/signals/1/
+# Single Signal Values = https://prophetapis.pythonanywhere.com/v1/signals/1/values/
+# Single Signal By Value = https://prophetapis.pythonanywhere.com/v1/signals/1/
+
+
+ 
+# Example Usage for the functions.
+
+api_base_url = "https://prophetapis.pythonanywhere.com/v1" 
+analyser = Analyser(api_base_url)
+
+signal_ids = analyser.signals(api_base_url)
+print(signal_ids)
+
+signal_info = analyser.single_signal(1)
+print(signal_info)
+
+signal_values = analyser.get_signal_values(signal_id=1, start="2023-07-10T00:00:00.000Z", end="2023-07-10T03:00:00.000Z", page_size=1, offset=0)
+print(signal_values)
+
+get_mean = analyser.get_mean_value(name = "signal1" )
+print(get_mean)
+
+get_std = analyser.get_std_value(name = "signal3" )
+print(get_std)
+
+get_stats = analyser.get_stats_value(name = "signal2" )
+print(get_stats)
+
+get_raw = analyser.raw(batch_size=1000, group='laboratory1')
+print(get_raw)

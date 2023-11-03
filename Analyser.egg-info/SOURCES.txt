@@ -1,0 +1,6 @@
+README
+setup.py
+Analyser.egg-info/PKG-INFO
+Analyser.egg-info/SOURCES.txt
+Analyser.egg-info/dependency_links.txt
+Analyser.egg-info/top_level.txt
